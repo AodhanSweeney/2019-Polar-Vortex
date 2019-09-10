@@ -9,5 +9,5 @@ I used the GFS Analysis from January 20th to February 10th, although not all the
 # Link to a working example of this visualization: http://students.washington.edu/aodhan/geopotential_contour_example/index.html
 
 
-# Screenshots:
+# Screenshot:
 ![alt text](https://github.com/AodhanSweeney/2019_Polar_Vortex/Jan_25_example.png)
