@@ -10,4 +10,4 @@ I used the GFS Analysis from January 20th to February 10th, although not all the
 
 
 # Screenshots:
-![alt text](https://github.com/AodhanSweeney/climate_change_globe/blob/master/1910s.png)
+![alt text](https://github.com/AodhanSweeney/2019-Polar-Vortex/Jan_25_example.png)
