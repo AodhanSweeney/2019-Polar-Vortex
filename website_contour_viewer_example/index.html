@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html class=no-js>
+
+<head>
+    <title></title>
+    <meta charset=utf-8>
+
+    <link rel=stylesheet href=styles/stylings.main.css>
+
+    <body class=webgl>
+        <div class=container >
+            <header>
+                <h1>2019 Polar Vortex: Geopotential Height & Wind Speed Manifolds 500 hPa layer. Click on the time stamps to see how 500 hPa layer changes. If the visualization is unresponsive reload the page.</h1></header>
+            <p id=nowebgl style=display:none>Oops, you don't seem to meet the requirements. Below is a video of what you're missing.</p>
+            <nav id=timeline>
+                <ul>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/25/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/26/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/27/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/28/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/29/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/30/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>01/31/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>02/01/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>02/02/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>02/03/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>02/04/19 00:00</div>
+                  </li>
+                  <li>
+                      <div class=marker></div>
+                      <div class=menu-text>02/05/19 00:00</div>
+                  </li>
+                </ul>
+            </nav>
+            <div id=loading>Loading, please wait...</div>
+            <canvas id=map class=hidden></canvas>
+        </div>
+        <canvas id=image-canvas width=100% height=100%></canvas>
+        </script>
+        <script src=./scripts/vendor/philogl.require.js></script>
+        <script src=./scripts/pressure_planes.main.js></script>

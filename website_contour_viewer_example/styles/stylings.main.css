@@ -1,0 +1,112 @@
+body {
+  background: #000;
+	font-family: 'Titillium Web', sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+header>h1 {
+	font-family: 'Titillium Web', sans-serif;
+	color: #eee;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0px
+}
+
+p.description {
+	color: #ddd
+}
+
+p.description a,
+p.description a:link,
+p.description a:visited {
+	color: #55acee
+}
+
+.webgl #map {
+	margin: 0px
+}
+
+.webgl #map.hidden {
+	visibility: hidden
+}
+
+.container {
+	padding: 0;
+	position: 0;
+	margin: 0
+}
+
+.selector {
+	position: absolute;
+	background: rgba(255, 255, 100, .1);
+	border: 2px dashed #555;
+	-webkit-transition: opacity 500ms;
+	transition: opacity 500ms;
+	pointer-events: none
+}
+
+.selector.hidden {
+	opacity: 0
+}
+
+#timeline ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+	vertical-align: top
+}
+
+#timeline li {
+	cursor: pointer;
+	display: inline-block;
+	width: 8%;
+	height: 65px;
+	border: 1px solid #111;
+	margin: 0
+}
+
+#timeline li.loaded .marker {
+	background: #55acee
+}
+
+#timeline li.loaded .menu-text {
+	color: #eee
+}
+
+#timeline li.selected .menu-text {
+	color: #ff5;
+	text-shadow: 0 0 7px #550
+}
+
+#timeline li .marker {
+	height: 5px;
+	background: #333;
+	-webkit-transition: background 1s;
+	transition: background 1s
+}
+
+#timeline li .menu-text {
+	font-size: .7em;
+	color: #eee;
+	white-space: nowrap;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+	-webkit-transition: color 1s;
+	transition: color 1s
+}
+
+#image-canvas {
+	display: none
+}
+
+#nowebgl {
+	color: red
+}
+
+#loading {
+	text-align: center;
+	color: #55acee
+}
