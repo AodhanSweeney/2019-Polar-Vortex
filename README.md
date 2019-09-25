@@ -10,4 +10,4 @@ I used the GFS Analysis from January 20th to February 10th, although not all the
 
 
 # Screenshot:
-![alt text](2019_Polar_Vortex/Jan_25_example.png)
+![](Jan_25_example.png)
